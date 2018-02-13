@@ -7,7 +7,6 @@ import {
 	CartesianGrid,
 	XAxis,
 	YAxis,
-	ZAxis,
 	Tooltip,
 	Legend,
 	Scatter,
