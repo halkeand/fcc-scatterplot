@@ -3,6 +3,7 @@ import axios from 'axios'
 import Loader from './components/Loader'
 import ScatterChart from './components/ScatterChart'
 import StyledSection from './components/StyledSection'
+import StyledFooter from './components/StyledFooter'
 class App extends Component {
 	state = {
 		isFetching: false,
@@ -46,6 +47,7 @@ class App extends Component {
 					https://raw.githubusercontent.com/FreeCodeCamp/ProjectReferenceData/master/cyclist-data.json
 				</p>
 				{error && <p>{error}</p>}
+				<StyledFooter />
 			</StyledSection>
 		)
 	}
